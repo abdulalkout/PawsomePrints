@@ -1,12 +1,29 @@
 .Part1 {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    font-family: sans-serif;
-    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+    color:aqua;
+    text-shadow: 1px 1px 2px navy;
 }
 
-.Section2 {
-    font-family: sans-serif;
-    text-align: center;
+.Part1 p{
+    margin-left: 15px;
+    align-self: center;
+    width: 300px;
+    font-size: 15pt;
 }
+
+.Part2{
+    text-shadow: 1px 1px 2px navy;
+    margin: 25px;
+    font-size: 12pt;
+}
+
+.body img{
+    height: 400px;
+    width: 500px;
+    margin-top: 25px;
+}
+
+
