@@ -1,0 +1,13 @@
+.AnimalsList
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  padding: 18px;
+  gap: 16px;
+  
+  /* background-color: whitesmoke; */
+}
+
+
