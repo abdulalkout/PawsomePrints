@@ -1,0 +1,12 @@
+.Part1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.Section2 {
+    font-family: sans-serif;
+    text-align: center;
+}
