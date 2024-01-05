@@ -5,7 +5,7 @@ class Animal
   picture;
   animalInfo;
   owner;
-  constructor(name, species, picture, animalInfo, owner = null)
+  constructor(name, species, picture, animalInfo)
   {
     this.name = typeof name === "string" ? name : "No Name Given";
     this.species = typeof species === "string" ? species : "No Species Given";
