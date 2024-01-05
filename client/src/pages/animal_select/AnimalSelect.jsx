@@ -1,5 +1,7 @@
 import React from 'react'
 
+import "./AnimalSelect.css";
+
 function AnimalSelect(props) 
 {
   /*
