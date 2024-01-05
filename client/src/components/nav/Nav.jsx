@@ -25,9 +25,8 @@ function Nav() {
             {" "}
             <h3>API's</h3>{" "}
           </a>
-          <a className="nav-links">
-            {" "}
-            <h3>Stories</h3>{" "}
+          <a className="nav-links" href="/animals">
+            <h3>Animals</h3>
           </a>
           <Link to="/" className="nav-links">
             <h3>About</h3>
