@@ -1,7 +1,7 @@
 import React from "react";
 
 function Introduction() {
-  return <div>Introduction</div>;
+  return <div>Introductions</div>;
 }
 
 export default Introduction;
