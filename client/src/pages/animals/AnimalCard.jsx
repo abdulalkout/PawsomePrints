@@ -1,35 +1,27 @@
-import React from 'react'
+import React from "react";
 
-function AnimalCard(props) 
-{
-  /*
-  const animalsSchema = new mongoose.Schema({
-    name: { type: String, required: true },
-    discription: { type: String, required: true },
-    Donation: { type: Number, required: false },
-    story: { type: String, required: false },
-    img: { type: String, required: false },
-    helth: { type: String, required: false },
-  });
-  */
-  
-  const { animalData } = props;
-  const { _id, pictureUrl, name, species, donations } = animalData;
+
+function AnimalCard({ animalData }) {
+  const { _id, img, name, story, donation } = animalData;
   return (
     <div className="AnimalCard">
       <div className="AnimalInfo">
-        <img className src={pictureUrl} alt="" />
+        <img className src={img} alt="" />
         <h3>{name}</h3>
-        <h4>{species}</h4>
+        <h4>{story}</h4>
       </div>
-      <section className='Donations'>
-        <h1>Donations</h1>
-        <p>${donations}</p>
+      <section className="donation">
+        <h1>donation</h1>
+        <p>${donation}</p>
       </section>
-      <a className='LinkButton' href={`/animal/${id}`}><button>View Animal</button></a>
-      <a className='LinkButton DonationButton' href={`/animal/donate/${id}`}><button>Make Donation</button></a>
+      <a className="LinkButton" href={`/animal/${_id}`}>
+        <button>View Animal</button>
+      </a>
+      <a className="LinkButton donationutton" href={`/animal/donate/${_id}`}>
+        <button>Make donation </button>
+      </a>
     </div>
-  )
+  );
 }
 
 export default AnimalCard;
