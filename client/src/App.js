@@ -1,6 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-
+import './components/introduction/Introduction.css'
 //-------------------Routes
 import Home from "./pages/home/Home";
 
