@@ -44,7 +44,7 @@ function About()
           on the lives of rescued animals and the communities they become a part of.
         </p>
         <div className="secondpics">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbqrw3qH4cQdfAE233ZKct5OHCgfATey9bLw&usqp=CAU" />
+          <img className="cow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbqrw3qH4cQdfAE233ZKct5OHCgfATey9bLw&usqp=CAU" />
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EvPgBYGi-Ow6Af9ZyAB8KzzTkDI1nUg6AQ&usqp=CAU" />
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8r91tqpE7tFkUIeovPUY8z5a90Dw32LRLZWOF_kn96gBVjzryhIm5EkIbQz5V3wLSDBA&usqp=CAU" />
         </div>
