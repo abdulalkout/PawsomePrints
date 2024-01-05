@@ -11,3 +11,9 @@
   flex-direction: row;
 }
 
+.AnimalDescription
+{
+  display: flex;
+  flex-direction: column;
+}
+
