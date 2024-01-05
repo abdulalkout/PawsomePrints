@@ -1,13 +1,30 @@
-.AnimalsList
-{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
-  padding: 18px;
-  gap: 16px;
-  
-  /* background-color: whitesmoke; */
+.AnimalsList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.AnimalsList img{
+    height: 200px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+button{
+    margin-right: 10px;
+    background-color: #64b464;
+    border: none;
+    height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
+.AnimalCard{
+    border: solid 2px #64b464;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.AnimalInfo h3{
+    text-align: center;
+}

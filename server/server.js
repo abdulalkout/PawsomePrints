@@ -28,31 +28,34 @@ app.get("/animals/seed", (req, res) => {
     [
       {
         name: "Platypus",
-        description: "via Wikipedia: The platypus, sometimes referred to as the duck-billed platypus, is a semiaquatic, egg-laying mammal endemic to eastern Australia, including Tasmania.",
+        description:
+          "via Wikipedia: The platypus, sometimes referred to as the duck-billed platypus, is a semiaquatic, egg-laying mammal endemic to eastern Australia, including Tasmania.",
         donation: 0,
-        story: "",
+        story: "Once this curious platypus found itself entangled in a fishing net near a serene riverbank. A compassionate passerby spotted the struggling creature, swiftly intervened, and carefully transported it to a nearby animal shelter. That shelter was ours and we worked tirelessly to rehabilitate this unique platypus, ensuring a happy ending to its unexpected adventure.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOitznFVLt2AwqaDo_sSftxvC3ts9z7pOpqg&usqp=CAU",
-        health: "Healthy"
+        health: "Healthy",
       },
       {
         name: "Polar Bear",
-        description: "via Wikipedia: The polar bear is a large bear native to the Arctic and nearby areas.",
+        description:
+          "via Wikipedia: The polar bear is a large bear native to the Arctic and nearby areas.",
         donation: 0,
-        story: "",
+        story: "Lost and disoriented, a polar bear wandered far from its icy home and ended up in an unfamiliar town. Concerned locals quickly contacted wildlife authorities, who orchestrated a rescue mission. The majestic polar bear was gently transported to a our animal shelter. Our team recreated a chilly habitat, providing Frost with the care and attention needed to recover. Once rehabilitated it now can find a home.",
         img: "https://bloximages.newyork1.vip.townnews.com/valpotorch.com/content/tncms/assets/v3/editorial/3/4b/34b39260-c783-11ec-9097-f3d860fdf9c7/626b82e91b1c1.image.jpg?resize=1200%2C755",
-        health: "Healthy"
+        health: "Healthy",
       },
       {
         name: "Snow Leopard",
-        description: "via Wikipedia: The snow leopard, commonly known as the ounce, is a species of large cat native to the mountain ranges of Central and South Asia.",
+        description:
+          "via Wikipedia: The snow leopard, commonly known as the ounce, is a species of large cat native to the mountain ranges of Central and South Asia.",
         donation: 0,
-        story: "",
+        story: "A snow leopard, displaced from its mountainous habitat due to unforeseen circumstances, was discovered by conservationists. Recognizing the urgency, they rescued the elegant cat and transported it to a our specialized animal shelter. Our staff, well-versed in caring for endangered species, created a tailored environment for the snow leopard. With patience and expertise, It thriving in our shelter's care. When the time comes, It will find its perfect home.",
         img: "https://s3.animalia.bio/animals/photos/full/1.25x1/snow-leopard-sitting-on-rocks-15842963161jpg.webp",
-        health: "Healthy"
-      }
+        health: "Healthy",
+      },
     ],
     (err, data) => {
-      res.redirect("/fruits");
+      res.redirect("/");
     }
   );
 });
