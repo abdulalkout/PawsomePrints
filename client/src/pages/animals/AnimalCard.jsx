@@ -2,6 +2,17 @@ import React from 'react'
 
 function AnimalCard(props) 
 {
+  /*
+  const animalsSchema = new mongoose.Schema({
+    name: { type: String, required: true },
+    discription: { type: String, required: true },
+    Donation: { type: Number, required: false },
+    story: { type: String, required: false },
+    img: { type: String, required: false },
+    helth: { type: String, required: false },
+  });
+  */
+  
   const { animalData } = props;
   const { _id, pictureUrl, name, species, donations } = animalData;
   return (
