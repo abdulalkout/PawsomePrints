@@ -28,7 +28,7 @@ function Nav() {
             {" "}
             <h3>Stories</h3>{" "}
           </a>
-          <Link to="/" className="nav-links">
+          <Link to="/about" className="nav-links">
             <h3>About</h3>
           </Link>
         </div>

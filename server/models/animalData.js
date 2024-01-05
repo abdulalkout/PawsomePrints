@@ -1,3 +1,14 @@
+/*
+const animalsSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  description: { type: String, required: true },
+  Donation: { type: Number, required: false },
+  story: { type: String, required: false },
+  img: { type: String, required: false },
+  health: { type: String, required: false },
+});
+*/
+
 class Animal
 {
   name;
@@ -10,8 +21,7 @@ class Animal
     this.name = typeof name === "string" ? name : "No Name Given";
     this.species = typeof species === "string" ? species : "No Species Given";
     this.picture = typeof picture === "string" ? picture : "https://example.com";
-    this.animalInfo = animalInfo instanceof AnimaInfo ? animalInfo : new AnimalInfo();
-    this.owner = String(owner);
+    this.animalInfo = animalInfo instanceof AnimalInfo ? animalInfo : new AnimalInfo();
   }
 }
 
@@ -34,5 +44,17 @@ class AnimalInfo
 
 
 const animalData = [];
+animalData.push(
+  new Animal("Name", "Polar Bear", "https://example.com", new AnimalInfo(
+    "lorem ipsum",
+    "lorem dolor",
+    "healthium",
+    "non i see",
+    "found somewhere"    
+  ))
+);
 
-module.exports = animalData;
+// module.exports = animalData;
+
+for(let animal of animalData)
+  console.log(animal);
