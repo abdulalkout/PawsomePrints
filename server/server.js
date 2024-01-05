@@ -28,7 +28,7 @@ app.get("/animals/seed", (req, res) => {
     [
       {
         name: "grapefruit",
-        color: "pink",
+        discription: "pink",
         readyToEat: true,
       },
       {
