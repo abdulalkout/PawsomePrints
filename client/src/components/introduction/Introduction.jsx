@@ -1,4 +1,5 @@
 import React from "react";
+import "./Introduction.css";
 
 function Introduction() {
   return (
