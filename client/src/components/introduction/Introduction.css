@@ -3,8 +3,8 @@
     flex-direction: row;
     justify-content: center;
     margin: 25px;
-    color:aqua;
-    text-shadow: 1px 1px 2px navy;
+    color:#64b464;
+    text-shadow: 1px 1px 2cap darkgreen;
 }
 
 .Part1 p{
@@ -15,7 +15,7 @@
 }
 
 .Part2{
-    text-shadow: 1px 1px 2px navy;
+    text-shadow: 1px 1px 2px #64b464;
     margin: 25px;
     font-size: 12pt;
 }
