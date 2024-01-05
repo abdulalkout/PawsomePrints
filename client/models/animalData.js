@@ -1,12 +1,14 @@
 class Animal
 {
   name;
+  species;
   picture;
   animalInfo;
   owner;
-  constructor(name, picture, animalInfo, owner = null)
+  constructor(name, species, picture, animalInfo, owner = null)
   {
     this.name = typeof name === "string" ? name : "No Name Given";
+    this.species = typeof species === "string" ? species : "No Species Given";
     this.picture = typeof picture === "string" ? picture : "https://example.com";
     this.animalInfo = animalInfo instanceof AnimaInfo ? animalInfo : new AnimalInfo();
     this.owner = String(owner);
@@ -31,9 +33,6 @@ class AnimalInfo
 }
 
 
-const animalData = [
-  
-  
-];
+const animalData = [];
 
 module.exports = animalData;
