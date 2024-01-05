@@ -4,7 +4,6 @@ import React from "react";
 import Nav from "../../components/nav/Nav";
 import Introduction from "../../components/introduction/Introduction";
 import AnimalsComponent from "../../components/animalsComponent/AnimalsComponent";
-
 function Home() {
   return (
     <div>

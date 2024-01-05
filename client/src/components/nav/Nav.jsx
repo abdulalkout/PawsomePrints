@@ -32,6 +32,9 @@ function Nav() {
           <Link to="/" className="nav-links">
             <h3>About</h3>
           </Link>
+          <Link to="/about" className="nav-links">
+        <h4>About Page</h4>
+      </Link>
         </div>
 
         <div className="mobileMenuIcon" onClick={toggleMobileMenu}>
