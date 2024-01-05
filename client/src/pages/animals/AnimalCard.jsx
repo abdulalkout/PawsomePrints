@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function AnimalCard({ animalData }) {
   const { _id, img, name, story, donation } = animalData;
   return (
