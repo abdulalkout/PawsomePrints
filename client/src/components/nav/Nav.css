@@ -1,0 +1,87 @@
+/* ---------computer view------------ */
+
+@media only screen and (max-width: 3000px) {
+}
+
+/* Maybe nav bar non-sticky for mobile view since it will take a lot of the screen space */
+.sticky-nav {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  position: sticky;
+}
+.navbar {
+  color: aliceblue;
+  background-color: rgba(0, 128, 0, 0.598);
+  height: 100px;
+  opacity: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  margin-left: 2%;
+}
+
+.pageLinks {
+  display: flex;
+  margin-right: 2%;
+}
+
+.nav-links:hover {
+  color: rgb(43, 55, 58);
+  text-decoration: underline;
+}
+
+.pageLinks a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 0 10px;
+}
+
+.mobileMenuIcon {
+  display: none;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ---------For mobile veiw -------------*
+/* For mobile veiw */
+@media only screen and (max-width: 800px) {
+  .pageLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+  }
+
+  .pageLinks.active {
+    display: flex;
+  }
+
+  .pageLinks a {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mobileMenuIcon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 3%;
+  }
+
+  .logo {
+    margin-left: 2%;
+  }
+}
