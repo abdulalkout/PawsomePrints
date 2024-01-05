@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import Nav from "../../components/nav/Nav";
 import AnimalCard from "./AnimalCard";
 

@@ -12,7 +12,7 @@ function AnimalsComponent() {
         one is exciting too, Cleck bellow to choose one and donait
       </p>
       <Link to="/animals" className="nav-links">
-        <button>Animals</button>
+        <button className="animals-button">Animals</button>
       </Link>
     </div>
   );
