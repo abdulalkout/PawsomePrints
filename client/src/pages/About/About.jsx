@@ -1,10 +1,12 @@
 import React from 'react'
+import Nav from "../../components/nav/Nav";
 
 function About() {
   return (
+    <div>
+    <Nav />
     <div className="About">
     <div className="Pawsome">
-    <img src=""/>
     <h1> About Pawsome Prints!!!</h1>
     </div>
     <div className="firstpics">
@@ -23,6 +25,7 @@ function About() {
       thriving environments for these creatures. A heartfelt thank you goes to those who support these efforts, as their contributions play a vital role in making a positive impact 
       on the lives of rescued animals and the communities they become a part of.
       </p>
+  </div>
   </div>
   )
 }
