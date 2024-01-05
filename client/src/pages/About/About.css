@@ -1,0 +1,25 @@
+.Pawsome{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color: #64b464;
+    text-shadow: 1px 1px 2cap darkgreen;
+    font-size: 35pt;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.firstpics{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.firstpics img{
+    margin: 15px;
+    height: 200px;
+    width: 300px;
+}
+
