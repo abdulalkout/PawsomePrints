@@ -21,14 +21,14 @@ function Nav() {
           <Link to="/" className="nav-links">
             <h3>Home</h3>
           </Link>
-          <a className="nav-links" href="/animals">
-            <h3>Animals</h3>
-
           <Link to="/animals" className="nav-links">
             <h3>Animals</h3>
           </Link>
-
-          <Link to="/" className="nav-links">
+          <a className="nav-links">
+            {" "}
+            <h3>Stories</h3>{" "}
+          </a>
+          <Link to="/about" className="nav-links">
             <h3>About</h3>
           </Link>
         </div>
