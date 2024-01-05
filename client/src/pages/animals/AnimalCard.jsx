@@ -1,4 +1,5 @@
 import React from "react";
+import "./Animals.css";
 
 function AnimalCard({ animalData }) {
   const { _id, img, name, story, donation } = animalData;
@@ -16,7 +17,7 @@ function AnimalCard({ animalData }) {
       <a className="LinkButton" href={`/animal/${_id}`}>
         <button>View Animal</button>
       </a>
-      <a className="LinkButton donationutton" href={`/animal/donate/${_id}`}>
+      <a className="LinkButtonDonation" href={`/animal/donate/${_id}`}>
         <button>Make donation </button>
       </a>
     </div>

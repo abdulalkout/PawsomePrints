@@ -1,5 +1,8 @@
 import React from 'react'
 
+import "./AnimalSelect.css";
+import "../animals/Animals.css";
+
 function AnimalSelect(props) 
 {
   /*
@@ -31,7 +34,7 @@ function AnimalSelect(props)
         <a className="LinkButton DonationButton" href={`/animal/donate/${_id}`}><button>Donate</button></a>
       </section>
       <section className='AnimalDescription'>
-        <div className='Description'></div>
+        <div className='Description'>{description}</div>
         <div className='Story'></div>
         <div className='Health'></div>
       </section>
